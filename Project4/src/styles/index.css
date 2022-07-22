@@ -1,0 +1,95 @@
+html {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 550px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 20px;
+}
+header img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #fff;
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card--info {
+    font-size: 0.64em;
+    line-height: 0.75em;
+}
+.card--info .fa-solid {
+    color: #F55A5A;
+    font-family: 'Font Awesome 6 Pro';
+    font-style: normal;
+    padding-right: 4px;
+}
+.card--info span {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    padding-right: 12px;
+}
+.card--info a {
+    color: #918E9B;
+}
+.card h2 {
+    font-size: 1.5625em;
+    line-height: 1.875em;
+    font-weight: 700;
+    margin: 0;
+}
+.card b {
+    font-size: 0.64em;
+    font-weight: 700;
+    line-height: 0.75em;
+}
+.card p {
+    font-weight: 400;
+    font-size: 0.64em;
+    line-height: 150%;
+    margin: 5px 0 0;
+}

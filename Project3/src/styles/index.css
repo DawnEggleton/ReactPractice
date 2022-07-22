@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 110%;
+}
+
+.app {
+    margin: 50px auto;
+    max-width: 550px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+nav {
+    background: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding:22px;
+    box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    padding: 25px 80px;
+}
+.hero img {
+    max-width: 100%;
+}
+
+section {
+    padding: 10px 35px;
+}
+section h2 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 39.6px;
+    margin: 0 0 16px 0;
+}
+section p {
+    font-size: 1em;
+    font-weight: 300;
+    width: 60%;
+    min-width: 300px;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+}
+.card {
+    width: 176px;
+}
+.card--image {
+    position: relative;
+    height: 235px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+.card--image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card--image span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: #fff;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.64em;
+    color: #222222;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.card--rating {
+    font-size: 0.75em;
+    color: #222222;
+}
+.card--rating i {
+    color: #FE395C;
+    padding-right: 5px;
+}
+.card--rating span {
+    color: #918E9B;
+    padding-left: 5px;
+}
+.card--cost,
+.card--description {
+   color: #222222;
+   font-size: 0.75em; 
+}

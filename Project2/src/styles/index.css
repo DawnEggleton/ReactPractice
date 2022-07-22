@@ -1,0 +1,115 @@
+:root {
+  --bg-body: #23252C;
+  --bg-content: #1A1B21;
+  --bg-offset: #161619;
+  --bg-action: #5093E2;
+  --text-header: #f5f5f5;
+  --text-main: #dcdcdc;
+  --text-dark: #1E1F26;
+  --text-alt: #374151;
+  --white: #fff;
+  --accent: #F3BF99;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 50px;
+  background: var(--bg-body);
+  font-family: 'Inter';
+}
+a {
+  text-decoration: none;
+}
+.fa-brand {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+}
+.fa-solid {
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 700;
+}
+
+.card {
+  margin: 0 auto;
+  width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-content);
+  color: var(--text-main);
+}
+
+header img {
+  height: 320px;
+  width: 320px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  flex: 0 0 100%;
+}
+header .info {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 35px 35px;
+}
+header h1 {
+  font-size: 25px;
+  color: var(--white);
+  margin: 0;
+  flex: 0 0 100%;
+}
+header p {
+  color: var(--accent);
+  font-size: 0.8em;
+  flex: 0 0 100%;
+}
+header a:not(.btn) {
+  flex: 0 0 100%;
+  font-size: 0.65em;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+header a.btn {
+  margin: 0 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875em;
+  padding: 9px 13px;
+  width: 100%;
+}
+
+.btn-light {
+  background: var(--white);
+  color: var(--text-alt);
+}
+.btn-light i {
+  color: var(--text-dark);
+}
+.btn-primary {
+  background: var(--bg-action);
+  color: var(--white);
+}
+
+main {
+  padding: 0 35px 35px;
+}
+main h2 {
+  margin: 0;
+  font-size: 1em;
+}
+main p {
+  font-size: 0.65em;
+  line-height: 200%;
+}
+
+footer {
+  background: var(--bg-offset);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
